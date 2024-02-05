@@ -7,6 +7,8 @@ from pymongo import MongoClient
 import time
 import asyncio
 import requests
+import os
+
 
 app = Flask(__name__)
 
@@ -162,4 +164,5 @@ def parse_feed_endpoint():
     return jsonify({"status": "success"})
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    # Run the Flask app using Gunicorn
+    app.run(debug=False, host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
