@@ -28,3 +28,14 @@ The Telegram News Feed Bot is a Python application that fetches news articles fr
 ## Usage
 
 Once configured and running, the bot will automatically fetch news articles from the specified RSS feeds and share them on the designated Telegram channels at regular intervals. You can manually trigger the feed parsing process by accessing the provided web interface endpoint.
+
+# Developer
+<div align="center">
+
+
+| [![Sahan Sandaruwan](https://github.com/sahansandaruwan.png?size=150)](https://github.com/sahansandaruwan) | 
+|----
+ [Sahan Sandaruwan](https://github.com/sahansandaruwan) |
+ Developer |
+ 
+ </div>
