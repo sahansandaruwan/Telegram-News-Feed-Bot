@@ -1,5 +1,5 @@
 feedparser==6.0.2
 python-telegram-bot==20.3
-requests==2.26.0
+requests==2.31.0
 pymongo
 Flask
